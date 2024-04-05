@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" defer></script>
+    <title>Working Memory</title>
+  </head>
+  <body>
+    <header><h1>Working Memory</h1></header>
+    <main>
+      <section id="userInputSection">
+        <h2>Type your memory here:</h2>
+
+        <form action="submit" id="userNewTextForm">
+          <label for="userNewText">Type in your new note: </label>
+          <textarea
+            id="userNewText"
+            rows="4"
+            cols="50"
+            placeholder="'I need to push changes to git'"
+          ></textarea>
+        </form>
+      </section>
+      <section id="userStoredSection">
+        <h2>Your stored notes are here:</h2>
+      </section>
+    </main>
+    <footer>
+      <p>Based off of the work by Cal Newport</p>
+      <p>Designed by Frankie Shrieves</p>
+    </footer>
+  </body>
+</html>
